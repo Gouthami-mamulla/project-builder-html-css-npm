@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo|Poppins:400,600,700&display=swap");
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+#home {
+    background-image: url(assets/background2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 130px;
+    text-align: center;
+}
+
+#white1 {
+    color: white;
+    text-align: center;
+    font-size: 3.2em;
+
+}
+
+#white2 {
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+#search {
+    width: 50%;
+    position: relative;
+}
+
+#imgbgcolor2 {
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 100px;
+}
+
+.nav-link {
+    font-size: 0.6em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 1em;
+
+}
+
+.nav-link:hover {
+    color: #524442;
+}
+
+#nav {
+    font-size: 1em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+
+
+}
+
+nav ul li {
+    margin: 0 20px;
+
+}
+
+.link-button2 {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    background: rgb(231, 215, 215);
+    padding: 6px;
+    border-radius: 10%;
+    border-color: rgb(15, 7, 7);
+
+}
+
+.link-button2:hover {
+    color: #524442;
+}
+
+.button1 {
+    text-decoration: none;
+    text-align: center;
+    background: #a82913;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color: white;
+    font-size: 1.6em;
+    padding: 10px;
+    border-radius: 5%;
+    border-color: black;
+}
+
+.button1:hover {
+    color: white;
+}
+
+.button2 {
+    text-decoration: none;
+    text-align: center;
+    background: #e61e92;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color: white;
+    font-size: 1.6em;
+    padding: 10px;
+    border-radius: 5%;
+    border-color: black;
+
+}
+
+.button2:hover {
+    color: white;
+}
+
+.bubble {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+}
+
+#bubb {
+    text-align: center;
+    padding: 70px;
+
+}
+
+#bring {
+    font-size: 2.2em;
+    color: #423d3c;
+    padding: 50px;
+
+}
+
+#freepro {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 70px;
+}
+
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    padding: 70px;
+}
+
+#grate {
+    text-align: center;
+    padding: 70px;
+    font-size: 1.6em;
+    color: #423d3c;
+
+
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#nostyle ul {
+    list-style: none;
+}
